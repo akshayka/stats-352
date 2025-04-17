@@ -23,8 +23,14 @@ Run notebooks with
 uvx marimo edit my_notebook.py
 ```
 
-Run a notebook as a script with
+Run a notebook as a script with:
 
 ```bash
 uv run my_notebook.py
+```
+
+Try this on the exploring languages notebook, in the `notebooks` directory:
+
+```bash
+uv run exploring_languages.py Python Rust --p 4
 ```
