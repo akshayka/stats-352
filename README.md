@@ -47,3 +47,12 @@ Try this on the exploring languages notebook, in the `notebooks` directory:
 ```bash
 uv run exploring_languages.py Python Rust --p 4
 ```
+
+## Sharing your work on GitHub Pages
+
+marimo notebooks can be published with full interactivity to GitHub pages,
+for free. These notebooks run in the browser and can use most packages
+from the scientific computing stack, though modern machine learning
+libraries like PyTorch and TensorFlow do not yet work.
+
+Get started with this template: https://github.com/marimo-team/marimo-gh-pages-template
