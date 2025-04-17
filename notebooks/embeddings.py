@@ -11,7 +11,7 @@
 
 import marimo
 
-__generated_with = "0.12.9"
+__generated_with = "0.12.10"
 app = marimo.App()
 
 
@@ -63,6 +63,12 @@ def _(embedding, mo, scatter):
     chart = mo.ui.altair_chart(scatter(embedding))
     chart
     return (chart,)
+
+
+@app.cell
+def _(chart):
+    chart.value
+    return
 
 
 @app.cell

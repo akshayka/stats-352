@@ -1,4 +1,4 @@
-# Stats 352: Fixing Python notebooks
+# Stats 352: Fixing Python notebooks with marimo
 
 > Slides: https://www.figma.com/slides/EtqHkcMZbqieKGUCUirVaw/2025.04.16-marimo---Stats-352?t=betZNE5LtMOhpbpe-1
 
@@ -14,5 +14,17 @@ Install the `uv` package manager:
 Test marimo with:
 
 ```bash
-uvx marimo edit
+uvx marimo tutorial intro
+```
+
+Run notebooks with
+
+```bash
+uvx marimo edit my_notebook.py
+```
+
+Run a notebook as a script with
+
+```bash
+uv run my_notebook.py
 ```
