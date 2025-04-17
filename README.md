@@ -17,6 +17,13 @@ Test marimo with:
 uvx marimo tutorial intro
 ```
 
+
+## Example notebooks
+
+Example notebooks are in the notebook directory. These have their
+package requirements serialized in them, and marimo can [install
+these requirements for you](https://docs.marimo.io/guides/package_reproducibility/) if you have `uv` installed.
+
 Run notebooks with
 
 ```bash
