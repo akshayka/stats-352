@@ -2,6 +2,12 @@
 
 > Slides: https://www.figma.com/slides/EtqHkcMZbqieKGUCUirVaw/2025.04.16-marimo---Stats-352?t=betZNE5LtMOhpbpe-1
 
+marimo is open source:
+
+* repo: https://github.com/marimo-team/marimo
+* docs: https://docs.marimo.io
+* landing page: https://marimo.io
+
 ## Set up
 
 marimo can be installed from PyPI into your virtual environments, just like
